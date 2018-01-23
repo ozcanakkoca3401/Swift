@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tlO-GZ-Dlh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller A-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ClassAVC" customModule="DelegateTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0d-p4-QIH">
+                                <rect key="frame" x="88" y="313" width="199" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Show B ViewController">
+                                    <color key="titleColor" red="0.2392156869" green="0.67450982329999998" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gWg-o7-PtS" kind="show" identifier="go" id="cmE-nF-A0U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="J0d-p4-QIH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AHg-9F-ybT"/>
+                            <constraint firstItem="J0d-p4-QIH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="72" id="DOK-c9-Ziu"/>
+                            <constraint firstItem="J0d-p4-QIH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="249" id="nUK-Vi-O1v"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="View Controller A" id="1xN-4A-Un5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1077.5999999999999" y="196.55172413793105"/>
+        </scene>
+        <!--ViewController B-->
+        <scene sceneID="tBE-JJ-CTI">
+            <objects>
+                <viewController id="gWg-o7-PtS" customClass="ClassBVC" customModule="DelegateTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hqm-6k-VFn"/>
+                        <viewControllerLayoutGuide type="bottom" id="sic-p7-7OH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oB9-zV-8VN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vxh-Yn-oKO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="FPR-DO-KT8">
+                                        <barButtonItem key="rightBarButtonItem" title="Save" id="825-bT-u9I"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dismiss buttona basınca arkadaki sayfanın rengini değiştir" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg6-i8-Wph">
+                                <rect key="frame" x="0.0" y="210" width="375" height="291"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bg6-i8-Wph" firstAttribute="leading" secondItem="vxh-Yn-oKO" secondAttribute="leading" id="34U-w3-CqB"/>
+                            <constraint firstItem="Bg6-i8-Wph" firstAttribute="leading" secondItem="oB9-zV-8VN" secondAttribute="leading" id="SMw-oH-Kh8"/>
+                            <constraint firstItem="Bg6-i8-Wph" firstAttribute="top" secondItem="Hqm-6k-VFn" secondAttribute="bottom" constant="146" id="jG1-nz-BNI"/>
+                            <constraint firstItem="Bg6-i8-Wph" firstAttribute="trailing" secondItem="vxh-Yn-oKO" secondAttribute="trailing" id="oAy-Fd-2lm"/>
+                            <constraint firstAttribute="trailing" secondItem="Bg6-i8-Wph" secondAttribute="trailing" id="pQf-M7-rpQ"/>
+                            <constraint firstItem="sic-p7-7OH" firstAttribute="top" secondItem="Bg6-i8-Wph" secondAttribute="bottom" constant="166" id="wZ4-4g-c3O"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="ViewController B" id="U8M-St-UZC">
+                        <barButtonItem key="rightBarButtonItem" title="Dismiss" id="PML-f5-pHt">
+                            <connections>
+                                <action selector="dismissView:" destination="gWg-o7-PtS" id="ITU-sB-me4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ca4-HP-8am" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1834" y="197"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qCE-a3-qzt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tlO-GZ-Dlh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nWl-89-pGD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zDz-Ih-KqR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWW-8B-QbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079" y="-577"/>
+        </scene>
+    </scenes>
+</document>
