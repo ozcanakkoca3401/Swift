@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTextTutorialTests/UnitTextTutorialTests.m"
+            timestampString = "524575330.983752"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-testAsynchronousURLConnection"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UnitTextTutorialTests testAsynchronousURLConnection]"
+                  moduleName = "UnitTextTutorialTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Adem/Desktop/UnitTextTutorial/UnitTextTutorialTests/UnitTextTutorialTests.m"
+                  timestampString = "524575340.382422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "569">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UnitTextTutorialTests testAsynchronousURLConnection]"
+                  moduleName = "UnitTextTutorialTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Adem/Desktop/UnitTextTutorial/UnitTextTutorialTests/UnitTextTutorialTests.m"
+                  timestampString = "524575340.384636"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "627">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UnitTextTutorialTests testAsynchronousURLConnection]"
+                  moduleName = "UnitTextTutorialTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Adem/Desktop/UnitTextTutorial/UnitTextTutorialTests/UnitTextTutorialTests.m"
+                  timestampString = "524575340.38632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1344">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UnitTextTutorialTests testAsynchronousURLConnection]"
+                  moduleName = "UnitTextTutorialTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Adem/Desktop/UnitTextTutorial/UnitTextTutorialTests/UnitTextTutorialTests.m"
+                  timestampString = "524575340.387893"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2351">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UnitTextTutorialTests testAsynchronousURLConnection]"
+                  moduleName = "UnitTextTutorialTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Adem/Desktop/UnitTextTutorial/UnitTextTutorialTests/UnitTextTutorialTests.m"
+                  timestampString = "524575340.389911"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2479">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
